@@ -1,0 +1,19 @@
+#corpo{
+    width: 90%;
+    margin: 10px auto;
+}
+
+#topo{
+    height: 100px;
+    font: bold 14pt;
+    background-color: rgb(90, 184, 238);
+}
+
+#tabela{
+    background-color: rgb(90, 184, 238);
+    font: 12pt Courie News;
+}
+
+.impar{
+    background: rgb(74, 221, 147);
+}
