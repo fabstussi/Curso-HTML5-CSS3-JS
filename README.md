@@ -10,3 +10,5 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 | Modulo | Aula | Link |
 |--------|------|------|
 |A|04|[Exercicio 001](exercicios/ex001.html)|
+|B|06|[Exercicio 002](exercicios/ex002.html)|
+|B|06|[Exercicio 003](exercicios/ex003.html)|

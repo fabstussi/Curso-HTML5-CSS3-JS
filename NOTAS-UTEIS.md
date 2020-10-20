@@ -1,0 +1,53 @@
+# Anotações úteis do curso.
+
+~~~HTML
+<!--- Estrutura basica para iniciar uma pagina HTML --->
+<!DOCTYPE html> <!--- abertura do código --->
+<html lang="pt-BR"> <!--- Abertura do HTML e informa ao navegador que a linguagem usada é o português do Brasil --->
+  
+  <head> <!--- Abertura do Cabeçalho --->
+    <meta charset="UTF-8"> <!--- Informa ao navegador que será usada a acentuação do português Basil --->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repl.it</title> <!--- Título da página (o que fica na aba do navegador--->
+    <link href="style.css" rel="stylesheet" /> <!--- Usado para referenciar onde está o arquivo css de estilo da pagina --->
+  </head> <!--- Fechamento da TAG do Cabeçalho --->
+
+<!---
+    As TAGs tem que ter abertura e fechamento <TAG></TAG>
+    As TAGs orfâs (sem </>) são simbolizadas com o "/" no final <TAG />
+--->
+
+  <body> <!--- Abertura da tag do corpo da página --->
+    <script src="script.js"></script> <!--- TAG de uso do JavaScript quando é usado arquivo externo --->
+
+    <footer> <!--- Abertura da TAG de rodapé --->
+        <a href="index.html" title="Retorna para a pagina inicial">Inicio</a> <!--- Usado para criar um link para outra pagina --->
+    </footer> <!--- Fechamento da TAG do rodapé --->
+    
+  </body> <!--- Fechamento da TAG do corpo --->
+
+</html> <!--- Finaliza se a página com o fechamento da TAG do HTML --->
+~~~
+
+* Guia rápido de comandos do JavaScript
+    * As variáveis em JavaScript não são tipificadas na declaração e sim quando lhe é atribuido algum conteúdo
+    * Os tipos podem ser:
+        * Number
+        * Strings
+        * boolean
+        * NaN (não é um número)
+        * Null
+        * Function
+    * typeof = exibe o tipo da variável
+    * Para mudar o tipo do conteúdo da variável pode se usar:
+        * Number.parseInt = para transformar obrigatóriamente a variável em um tipo inteiro
+        * Number.parseFloat = para transformar obrigatóriamente a variável em um tipo real
+        * Number(variável) = o JavaScript interpreta o conteúdo da variável e a converte no que se melhor adapte
+        * variável.toString() ou String(variável) para transformar a variável em um tipo String
+    * var ou let = declaração de variáveis o uso depende do scopo
+    * const = declaração de constante
+    * As strings podem ser declaradas com **"aspas duplas", 'aspas simples (apostrofos)' ou `crases** **`**
+    * O comando window cria uma caixa de comando em frente ao navegador que podem ser:
+        * window.alert -> Caixa de alerta (só tem um OK)
+        * window.confirm -> Caixa de confirmação (com OK e Cancel)
+        * window.prompt -> Caixa interativa que aguarda entrada de dados
