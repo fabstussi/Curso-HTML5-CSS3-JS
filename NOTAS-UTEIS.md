@@ -47,6 +47,22 @@
     * var ou let = declaração de variáveis o uso depende do scopo
     * const = declaração de constante
     * As strings podem ser declaradas com **"aspas duplas", 'aspas simples (apostrofos)' ou `crases** **`**
+    * O sinal de + pode servir para:
+        * Number + Number -> o mais serve para fazer uma adição
+        * Number + String ou String + Number -> o mais serve para concaterner
+        * String + String -> o mais serve para concaternar
+    * Uma forma de ter uma String formatada já tendo a concaternização com as variáveis podemos usar o template string
+    ~~~JavaScript
+    `Eu estou aprendendo ${variável}`
+    ~~~
+    * As Strings tem os metodos:
+        * variável.length = tamanho em caracteres da string
+        * variável.toUpperCase() = colocar tudo em MAIúSCULAS
+        * variável.toLowerCase() = COLOCA TUDO EM minúscula
+    * Os Numbers também tem métodos:
+        * variável.toFixed(n) = fixa as casas decimais em "n" casas depois da virgula
+        * variável.replace('**.**', '**,**') = para exibir virgula no lugar de ponto na separação das casas decimais
+        * variável.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
     * O comando window cria uma caixa de comando em frente ao navegador que podem ser:
         * window.alert -> Caixa de alerta (só tem um OK)
         * window.confirm -> Caixa de confirmação (com OK e Cancel)
