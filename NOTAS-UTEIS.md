@@ -53,7 +53,7 @@
         * String + String -> o mais serve para concaternar
     * Uma forma de ter uma String formatada já tendo a concaternização com as variáveis podemos usar o template string
     ~~~JavaScript
-    `Eu estou aprendendo ${variável}`
+    `Eu estou aprendendo ${variável}` \\ só funciona com crases, não pode usar aspas nem simples nem duplas
     ~~~
     * As Strings tem os metodos:
         * variável.length = tamanho em caracteres da string
