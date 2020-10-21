@@ -1,0 +1,36 @@
+body {
+    width: 90%, auto;
+    background-color: darkolivegreen;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: black;
+}
+
+#topo {
+    margin-top: 10px;
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: center;
+    color: rgb(155, 225, 152);
+    background-color: rgb(14, 78, 73);
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 5, 5);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px;
+}
+
+footer {
+    height: 25;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-align: left;
+    background-color: rgb(14, 78, 73);
+}
+
+footer a {
+    color: black;
+}

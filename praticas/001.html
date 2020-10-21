@@ -5,56 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pratica do curso de JavaScript</title>
-    <style>
-        #corpo {
-            width: 90%, auto;
-            background-color: darkolivegreen;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: medium;
-            color: black;
-        }
-
-        #topo {
-            height: 25px;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: small;
-            text-align: left;
-            color: rgb(155, 225, 152);
-            background-color: rgb(14, 78, 73);
-        }
-
-        h1 {
-            font-family: 'Times New Roman', Times, serif;
-            text-align: center;
-            color: firebrick;
-        }
-
-        footer {
-            height: 25;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: small;
-            text-align: left;
-            background-color: rgb(14, 78, 73);
-        }
-
-        footer a {
-            color: black;
-        }
-    </style>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
-<body id="corpo">
+<body>
     <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
     <h1>Prática de JavaScript - fim do módulo B</h1>
+    <p>Usando operador ternário e formatando valor monetário</p>
     <script>
         let nome = window.prompt('Qual o seu nome?');
         let idade = Number(window.prompt(`${nome} qual é a sua idade?`));
-        let sexo = window.prompt(`${nome} qual sua identidade de género (M / F / NB)?`);
+        let sexo = window.prompt(`${nome} qual sua identidade de género (M / F / NB)?`).toUpperCase();
         let salario = Number(window.prompt(`${nome} qual o seu salário? R$`));
         document.write(`${nome}, `);
         // Uso do operador ternário
         document.write(`você tem ${idade} anos, portanto é ${idade < 18 ? 'menor' : 'maior'} de idade, `);
-        document.write(`você é ${sexo == 'NB' ? 'Não Binário' : sexo == 'F' ? 'Mulher' : 'Homem'}, `);
+        document.write(`você é ${sexo == 'NB' ? 'não binário' : sexo == 'F' ? 'mulher' : 'homem'}, `);
         document.write(`seu salário é ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
     </script>
 
