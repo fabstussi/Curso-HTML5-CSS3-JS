@@ -52,6 +52,7 @@
         let sexo = window.prompt(`${nome} qual sua identidade de género (M / F / NB)?`);
         let salario = Number(window.prompt(`${nome} qual o seu salário? R$`));
         document.write(`${nome}, `);
+        // Uso do operador ternário
         document.write(`você tem ${idade} anos, portanto é ${idade < 18 ? 'menor' : 'maior'} de idade, `);
         document.write(`você é ${sexo == 'NB' ? 'Não Binário' : sexo == 'F' ? 'Mulher' : 'Homem'}, `);
         document.write(`seu salário é ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
