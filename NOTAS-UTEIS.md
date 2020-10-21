@@ -81,8 +81,4 @@
 		* == -> Operador de igualdade
 		* === -> Restritamente igual,  operador identidade (igualdade no valor e no tipo)
 	* Operadores lógicos: !(negação), &&(e lógico) e ||(ou lógico):
-		* |true| e |true| => |true| - |true| ou |true| => |true|
-		* |true| e |false| => |false| - |true| ou |false| => |true|
-		* |false| e |true| => |false| - |false| ou |true| => |true|
-		* |false| e |false| => |false| - |false| ou |false| => |false|
 	* Operador ternário: [teste lógico]?[true]:[false]
