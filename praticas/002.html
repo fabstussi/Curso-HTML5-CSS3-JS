@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>repl.it</title>
+    <title>Pratica do curso de JavaScript</title>
     <link href="style.css" rel="stylesheet" />
 </head>
 
@@ -14,10 +14,10 @@
     <p>Acessando os elemento do corpo do HTML com JavaScript</p>
 
     <div id="pSemId">
-        <p>Primeiro paragráfo: </p>
-        <p>foi escrito no segundo paragráfo!</p>
-        <p>Cor do texto modificado</p>
-        <p>Cor do fundo modificado</p>
+        <p>Isso já está no HTML / </p>
+        <p>/ isso já estava no HTML</p>
+        <p>A cor do texto foi modificada pelo JavaScript</p>
+        <p>A cor do fundo foi modificada pelo JavaScript</p>
     </div>
 
     <div id="pComId">
@@ -37,22 +37,22 @@
         </thead>
         <tbody>
             <tr class="imp">
-                <td class="c1">FABIANO</td>
+                <td class="c1">João</td>
                 <td class="c2">40</td>
                 <td class="c3">M</td>
             </tr>
             <tr class="par">
-                <td class="c1">DENISE</td>
+                <td class="c1">Maria</td>
                 <td class="c2">38</td>
                 <td class="c3">F</td>
             </tr>
             <tr class="imp">
-                <td class="c1">RAPHAEL</td>
+                <td class="c1">Sandro</td>
                 <td class="c2">14</td>
                 <td class="c3">M</td>
             </tr>
             <tr class="par">
-                <td class="c1">SARAH</td>
+                <td class="c1">Michele</td>
                 <td class="c2">5</td>
                 <td class="c3">F</td>
             </tr>
@@ -65,9 +65,9 @@
         let tel = prompt('Qual o seu número de telefone?');
         let n1 = Number(prompt('Diga um número qualquer'));
         let n2 = Number(prompt('Diga outro número qualquer'));
-        /*        let corC1 = prompt('Qual cor você escolhe para a fonte na primeira coluna');
-                let corC2 = prompt('Qual cor você escolhe para a fonte na segunda coluna');
-                let corC3 = prompt('Qual cor você escolhe para a fonte na terceira coluna');*/
+        let corC1 = prompt('Qual cor você escolhe para a fonte na primeira coluna');
+        let corC2 = prompt('Qual cor você escolhe para a fonte na segunda coluna');
+        let corC3 = prompt('Qual cor você escolhe para a fonte na terceira coluna');
         idade = 2020 - idade;
         let soma = n1 + n2;
         let p1 = document.getElementsByTagName('p')[2];
@@ -88,18 +88,44 @@
         p1.innerHTML = `<b>Soma:</b> ${soma}`;
         let tab = document.getElementsByTagName('table')[0];
         tab.style.backgroundColor = 'rgb(155, 226, 253)';
-        let cb = document.querySelectorAll('th.cb1');
-        let cc = document.querySelectorAll('td.c1');
-        cb.style.color = 'red';
-        cc.style.color = 'red';
-        cb = document.querySelectorAll('th.cb2');
-        cc = document.querySelectorAll('td.c2');
-        cb.style.color = 'blue';
-        cc.style.color = 'blue';
-        cb = document.querySelectorAll('th.cb3');
-        cc = document.querySelectorAll('td.c3');
-        cb.style.color = 'yellow';
-        cc.style.color = 'yellow';
+        let linha = document.getElementsByClassName('imp')[0];
+        linha.style.backgroundColor = 'rgb(222, 163, 156)';
+        linha = document.getElementsByClassName('imp')[1];
+        linha.style.backgroundColor = 'rgb(222, 163, 156)';
+        linha = document.getElementsByClassName('par')[0];
+        linha.style.backgroundColor = 'rgb(183, 221, 225)';
+        linha = document.getElementsByClassName('par')[1];
+        linha.style.backgroundColor = 'rgb(183, 221, 225)';
+        let col1 = document.getElementsByClassName('cb1')[0];
+        col1.style.color = corC1;
+        col1 = document.getElementsByClassName('c1')[0];
+        col1.style.color = corC1;
+        col1 = document.getElementsByClassName('c1')[1];
+        col1.style.color = corC1;
+        col1 = document.getElementsByClassName('c1')[2];
+        col1.style.color = corC1;
+        col1 = document.getElementsByClassName('c1')[3];
+        col1.style.color = corC1;
+        let col2 = document.getElementsByClassName('cb2')[0];
+        col2.style.color = corC2;
+        col2 = document.getElementsByClassName('c2')[0];
+        col2.style.color = corC2;
+        col2 = document.getElementsByClassName('c2')[1];
+        col2.style.color = corC2;
+        col2 = document.getElementsByClassName('c2')[2];
+        col2.style.color = corC2;
+        col2 = document.getElementsByClassName('c2')[3];
+        col2.style.color = corC2;
+        let col3 = document.getElementsByClassName('cb3')[0];
+        col3.style.color = corC3;
+        col3 = document.getElementsByClassName('c3')[0];
+        col3.style.color = corC3;
+        col3 = document.getElementsByClassName('c3')[1];
+        col3.style.color = corC3;
+        col3 = document.getElementsByClassName('c3')[2];
+        col3.style.color = corC3;
+        col3 = document.getElementsByClassName('c3')[3];
+        col3.style.color = corC3;
     </script>
 
     <footer>
