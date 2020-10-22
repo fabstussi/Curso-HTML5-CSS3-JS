@@ -17,4 +17,5 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 ### Lista de práticas
 | Modulo | Curso | Aula | Link |
 |--------|-------|------|------|
-|A|JavaScript|08|[Prática 01](praticas/001.html)|
+|B|JavaScript|08|[Prática 001](praticas/001.html)|
+|C|JavaScript|09|[Prática 002](praticas/002.html)|
