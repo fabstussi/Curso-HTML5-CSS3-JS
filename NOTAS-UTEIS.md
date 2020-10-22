@@ -82,6 +82,9 @@
 		* === -> Restritamente igual,  operador identidade (igualdade no valor e no tipo)
 	* Operadores lógicos: !(negação), &&(e lógico) e ||(ou lógico):
 	* Operador ternário: [teste lógico]?[true]:[false]
+	* Document Object Model -> Ajuda na manipulação dos elementos do HTML5
+		* Ascendente ou parent
+		* Descendente ou child
 	* Navegando entre os elementos.
 		* Tipos de acessos aos elementos:
 			* Por marca -> variável = window.document.getElementsByTagName('tag') "se tiver mais de uma das tag
