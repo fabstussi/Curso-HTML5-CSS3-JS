@@ -29,6 +29,68 @@
 </html> <!--- Finaliza se a página com o fechamento da TAG do HTML --->
 ~~~
 
+### Exemplo de uso de evento que manipula elemento iniciando no HTML
+~~~HTML
+<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+<!--
+	id é a identificação única em um elemênto
+		onclick é o evento de clique na area demarcada para a div
+		onmouseenter é o evento de entrada do ponteiro do mouse na area demarcada da div
+		onmouseout é o evento de saída do ponteiro do mouse na área demarcada da div
+		a chamada das função sempre tem que ter os parênteses ()
+-->
+	Interaja...
+</div>
+
+<script>
+	// function é a declaração da função, deve ser nomeada
+	function clicar() { // As chaves marcam o bloco de código
+		let area = document.getElementById('area');
+		area.innerHTML = 'Clicou!';
+		area.style.backgroundColor = 'rgb(220, 50, 0)';
+	}
+
+	function entrar() {
+		let area = document.getElementById('area');
+		area.innerHTML = 'Dentro da área';
+	}
+
+	function saiu() {
+		let area = document.getElementById('area');
+		area.innerHTML = 'Saiu da área';
+		area.style.backgroundColor = 'rgb(6, 155, 26)';
+	}
+</script>
+~~~
+
+### Exemplo de uso de evento que manipula elemento iniciando no JavaScript
+~~~HTML
+<div id="area">
+	Interaja...
+</div>
+
+<script>
+	let area = document.getElementById('area');
+	area.addEventListener('click', clicar)
+	area.addEventListener('mouseenter', entrar)
+	area.addEventListener('mouseout', saiu)
+
+	function clicar() {
+		area.innerHTML = 'Clicou!';
+		area.style.backgroundColor = 'rgb(220, 50, 0)';
+	}
+
+	function entrar() {
+		area.innerHTML = 'Dentro da área';
+	}
+
+	function saiu() {
+		area.innerHTML = 'Saiu da área';
+		area.style.backgroundColor = 'rgb(6, 155, 26)';
+	}
+</script>
+~~~
+
 * Guia rápido de comandos do JavaScript
 	* As variáveis em JavaScript não são tipificadas na declaração e sim quando lhe é atribuído algum conteúdo
 	* Os tipos podem ser:
@@ -99,3 +161,7 @@
 			* Por Seletor -> variável = windows.document.querySelector()
 				* (tag#id) quando a tag tem um id usa-se # na separação
 				* (tag.class) quando a tag usa uma class usa-se . na separação
+	* Estrutura de uma função:
+		* function -> declaração da função
+		* nomeFunção() ou nome_Função() -> nome para a função usado para chamá-la, podendo ter ou não parâmetros
+    * o uso das chaves é obrigatório para marcar o bloco de código
