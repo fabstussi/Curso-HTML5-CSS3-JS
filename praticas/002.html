@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+    <h1>Prática de JavaScript - módulo C</h1>
+    <p>Acessando os elemento do corpo do HTML com JavaScript</p>
+
+    <div id="pSemId">
+        <p>Primeiro paragráfo: </p>
+        <p>foi escrito no segundo paragráfo!</p>
+        <p>Cor do texto modificado</p>
+        <p>Cor do fundo modificado</p>
+    </div>
+
+    <div id="pComId">
+        <p id="nome"></p>
+        <p id="idade"></p>
+        <p id="telefone"></p>
+        <p id="soma"></p>
+    </div>
+
+    <table border="2" width=25% cellpadding="4" cellspacing="4">
+        <thead>
+            <tr>
+                <th class="cb1">NOME</th>
+                <th class="cb2">IDADE</th>
+                <th class="cb3">SEXO</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="imp">
+                <td class="c1">FABIANO</td>
+                <td class="c2">40</td>
+                <td class="c3">M</td>
+            </tr>
+            <tr class="par">
+                <td class="c1">DENISE</td>
+                <td class="c2">38</td>
+                <td class="c3">F</td>
+            </tr>
+            <tr class="imp">
+                <td class="c1">RAPHAEL</td>
+                <td class="c2">14</td>
+                <td class="c3">M</td>
+            </tr>
+            <tr class="par">
+                <td class="c1">SARAH</td>
+                <td class="c2">5</td>
+                <td class="c3">F</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        let nome = prompt('Olá qual é o seu nome?');
+        let idade = Number(prompt('Em que ano você nasceu?'));
+        let tel = prompt('Qual o seu número de telefone?');
+        let n1 = Number(prompt('Diga um número qualquer'));
+        let n2 = Number(prompt('Diga outro número qualquer'));
+        /*        let corC1 = prompt('Qual cor você escolhe para a fonte na primeira coluna');
+                let corC2 = prompt('Qual cor você escolhe para a fonte na segunda coluna');
+                let corC3 = prompt('Qual cor você escolhe para a fonte na terceira coluna');*/
+        idade = 2020 - idade;
+        let soma = n1 + n2;
+        let p1 = document.getElementsByTagName('p')[2];
+        p1.innerText = `${p1.innerText} isso foi incluído pelo JavaScript`;
+        p1 = document.getElementsByTagName('p')[3];
+        p1.innerText = `Isso foi incluído pelo JavaScript ${p1.innerText}`;
+        p1 = document.getElementsByTagName('p')[4];
+        p1.style.color = 'yellow';
+        p1 = document.getElementsByTagName('p')[5];
+        p1.style.background = 'blue'
+        p1 = document.getElementById('nome');
+        p1.innerHTML = `<b>Nome:</b> ${nome}`;
+        p1 = document.getElementById('idade');
+        p1.innerHTML = `<b>Idade:</b> ${idade}`;
+        p1 = document.getElementById('telefone');
+        p1.innerHTML = `<b>Telefone:</b> ${tel}`;
+        p1 = document.getElementById('soma');
+        p1.innerHTML = `<b>Soma:</b> ${soma}`;
+        let tab = document.getElementsByTagName('table')[0];
+        tab.style.backgroundColor = 'rgb(155, 226, 253)';
+        let cb = document.querySelectorAll('th.cb1');
+        let cc = document.querySelectorAll('td.c1');
+        cb.style.color = 'red';
+        cc.style.color = 'red';
+        cb = document.querySelectorAll('th.cb2');
+        cc = document.querySelectorAll('td.c2');
+        cb.style.color = 'blue';
+        cc.style.color = 'blue';
+        cb = document.querySelectorAll('th.cb3');
+        cc = document.querySelectorAll('td.c3');
+        cb.style.color = 'yellow';
+        cc.style.color = 'yellow';
+    </script>
+
+    <footer>
+        <a href="index.html" title="Retorna para a pagina inicial">Inicio</a>
+    </footer>
+
+</body>
+
+</html>
