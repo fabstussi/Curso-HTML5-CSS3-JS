@@ -13,6 +13,7 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 |B|JavaScript|06|[Exercício 002](exercícios/ex002.html)|
 |B|JavaScript|06|[Exercício 003](exercícios/ex003.html)|
 |B|JavaScript|06|[Exercício 004](exercícios/ex004.html)|
+|C|JavaScript|10|[Exercício 005](exercícios/ex005.html)|
 
 ### Lista de práticas
 | Modulo | Curso | Aula | Link |
