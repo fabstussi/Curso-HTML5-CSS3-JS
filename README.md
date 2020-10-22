@@ -7,9 +7,14 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 [JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) do ano de 2019.
 
 ### Lista de Exercícios
-| Modulo | Aula | Link |
-|--------|------|------|
-|A|04|[Exercício 001](exercícios/ex001.html)|
-|B|06|[Exercício 002](exercícios/ex002.html)|
-|B|06|[Exercício 003](exercícios/ex003.html)|
-|B|06|[Exercício 004](exercícios/ex004.html)|
+| Modulo | Curso | Aula | Link |
+|--------|-------|------|------|
+|A|JavaScript|04|[Exercício 001](exercícios/ex001.html)|
+|B|JavaScript|06|[Exercício 002](exercícios/ex002.html)|
+|B|JavaScript|06|[Exercício 003](exercícios/ex003.html)|
+|B|JavaScript|06|[Exercício 004](exercícios/ex004.html)|
+
+### Lista de práticas
+| Modulo | Curso | Aula | Link |
+|--------|-------|------|------|
+|A|JavaScript|08|[Prática 01](praticas/001.html)|

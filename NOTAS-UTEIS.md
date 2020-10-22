@@ -82,3 +82,17 @@
 		* === -> Restritamente igual,  operador identidade (igualdade no valor e no tipo)
 	* Operadores lógicos: !(negação), &&(e lógico) e ||(ou lógico):
 	* Operador ternário: [teste lógico]?[true]:[false]
+	* Navegando entre os elementos.
+		* Tipos de acessos aos elementos:
+			* Por marca -> variável = window.document.getElementsByTagName('tag') "se tiver mais de uma das tag
+			selecionada pode usar o fatiamento com [] iniciando de 0"
+				~~~JavaScript
+				let p1 = window.document.getElementsByTagName('p')[0]
+				~~~
+			* Por ID -> variável = window.document.getElementById('id')
+			* Por Nome -> variável = window.document.getElementsByName('nome') "se tiver mais de um elemento com o mesmo
+			nome pode usar o fatiamento com [] iniciando de 0
+			* Por Classe -> variável = window.document.getElementsByClassName('nome')
+			* Por Seletor -> variável = windows.document.querySelector()
+				* (tag#id) quando a tag tem um id usa-se # na separação
+				* (tag.class) quando a tag usa uma class usa-se . na separação
