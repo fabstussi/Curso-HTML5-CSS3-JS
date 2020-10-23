@@ -24,6 +24,7 @@ h1 {
 }
 
 footer {
+    margin-top: 20px;
     height: 25;
     font-family: 'Courier New', Courier, monospace;
     font-size: small;
