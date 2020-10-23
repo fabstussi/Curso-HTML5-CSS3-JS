@@ -164,4 +164,9 @@
 	* Estrutura de uma função:
 		* function -> declaração da função
 		* nomeFunção() ou nome_Função() -> nome para a função usado para chamá-la, podendo ter ou não parâmetros
-    * o uso das chaves é obrigatório para marcar o bloco de código
+    	* o uso das chaves é obrigatório para marcar o bloco de código
+	* console.log() -> para exibir mensagem na tela do console
+	* Desvio de condições:
+		* Desvio de condição simples: if (condição) {bloco de comandos executado caso a condição seja verdadeira} 
+		* Desvio de condição composta: if (condição) {bloco de comandos executado caso a condição seja verdadeira} else 
+	{ bloco de comandos executados caso a condição seja falsa}
