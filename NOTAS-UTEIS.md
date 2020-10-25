@@ -170,4 +170,8 @@
 		* Desvio de condição simples: if (condição) {bloco de comandos executado caso a condição seja verdadeira} 
 		* Desvio de condição composta: if (condição) {bloco de comandos executado caso a condição seja verdadeira} else 
 	{ bloco de comandos executados caso a condição seja falsa}
-		* Condições aninhadas: 
+		* Condições aninhadas: if (condição) {bloco de comandos executado caso a condição seja verdadeira} else if {bloco
+		de comando executado caso as opção anteriores sejam falsas e a segunda seja verdadeira} else {bloco de comando
+		executado caso todas as opções anteriores sejam falsas}
+		* Condições múltipla: switch (expressão) {bloco de código com opções - case opção_01: código break- case opção_02: código break - case opção_03 código break- default: código caso nenhuma das opções acima seja satisfeita break}
+	* variável = new Date() -> para pegar data e hora do sistema
