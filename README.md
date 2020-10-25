@@ -15,12 +15,12 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 |B|JavaScript|06|[Exercício 004](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex004.html)|Usando String formatadas com Template String|
 |C|JavaScript|10|[Exercício 005](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex005.html)|Usando funções para manipular elementos DOM|
 |C|JavaScript|10|[Exercício 006](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex006.html)|Manipulando valores nas caixa de texto|
-|D|JavaScript|11|[Exercício 007](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex007.js)|Usando condicionais|
-|D|JavaScript|11|[Exercício 008](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex008.html)|Calcular a velocidade|
-|D|JavaScript|11|[Exercício 009](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex009.html)|Verifica a nacionalidade|
+|D|JavaScript|11|[Exercício 007](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex007.html)|Calcular a velocidade|
+|D|JavaScript|11|[Exercício 008](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex008.html)|Verifica a nacionalidade|
 
 ### Lista de práticas
 | Modulo | Curso | Aula | Link | Comentário |
 |--------|-------|------|------|------------|
 |B|JavaScript|08|[Prática 001](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/praticas/001.html)|Usando operador ternário e formatando strings|
 |C|JavaScript|09|[Prática 002](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/praticas/002.html)|Manipulando elementos DOM com o JavaScript|
+|D|JavaScript|11|[Exercício 007](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex007.html)|Usando condicionais|

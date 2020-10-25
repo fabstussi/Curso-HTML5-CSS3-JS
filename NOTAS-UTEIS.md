@@ -170,3 +170,4 @@
 		* Desvio de condição simples: if (condição) {bloco de comandos executado caso a condição seja verdadeira} 
 		* Desvio de condição composta: if (condição) {bloco de comandos executado caso a condição seja verdadeira} else 
 	{ bloco de comandos executados caso a condição seja falsa}
+		* Condições aninhadas: 

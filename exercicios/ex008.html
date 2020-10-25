@@ -10,46 +10,46 @@
         #sistema {
             background-color: aquamarine;
             width: 40%;
-            height: 200px;
+            height: 150px;
             text-align: center;
         }
 
-        #resp {
+        #text {
             margin-left: 20px;
+            margin-top: 5px;
             background-color: chartreuse;
             width: 90%;
-            height: 100px;
+            height: 80px;
             text-align: center;
         }
 
-        #txtvel {
+        #txt {
             text-align: center;
+            margin-top: 5px;
         }
     </style>
 </head>
 
 <body>
     <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
-    <h1>Exercício de JavaScript - módulo D</h1>
+    <h1>Desavio proposto de JavaScript - módulo D</h1>
     <div id="sistema">
-        <p>Sistema de Multas do DETRAN</p>
-        <p>Velocidade do carro: <input type="number" name="txtvel" id="txtvel" />km/h
-            <input type="button" value="Verificar" onclick="calcular()" /></p>
-        <div id="resp"></div>
+        <p>Onde vive: <input type="text" name="txt" id="txt">
+            <input type="button" value="Mostrar" onclick="verificar()" /></p>
+        <div id="text"></div>
     </div>
 
     <script>
-        function calcular() {
-            let txtv = document.querySelector('input#txtvel')
-            let res = document.querySelector('div#resp')
-            let vel = Number(txtv.value)
-            res.innerHTML = `<p>A velocidade registrada foi de <b>${vel}km/h </b></p> `
-            if (vel > 60) {
-                res.innerHTML += '<p><b>Será aplicada multa, velocidade máxima excedida</b></p>'
+        function verificar() {
+            let txt = document.querySelector('input#txt')
+            let text = document.querySelector('div#text')
+            if (txt.value == 'Brasil') {
+                text.innerHTML += '<p><b>Você é brasileiro!</b></p>'
+                text.innerHTML += '<p><b>Seja bem-vindo!</b></p>'
             } else {
-                res.innerHTML += '<b>Não será aplicada multa, estava dentro do limite permitido</b>'
+                text.innerHTML += '<p><b>Are you a foreigner!</b></p>'
+                text.innerHTML += '<p><b>Be welcome</b></p>'
             }
-            res.innerHTML += '<p>Dirija sempre usando o sinto de segurança!</p>'
         }
     </script>
 
