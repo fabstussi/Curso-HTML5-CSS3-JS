@@ -23,4 +23,5 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 |--------|-------|------|------|------------|
 |B|JavaScript|08|[Prática 001](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/praticas/001.html)|Usando operador ternário e formatando strings|
 |C|JavaScript|09|[Prática 002](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/praticas/002.html)|Manipulando elementos DOM com o JavaScript|
-|D|JavaScript|11|[Exercício 007](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex007.html)|Usando condicionais|
+|D|JavaScript|11|[Prática 003](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/003.html)|Usando condicionais simples e compostas|
+|D|JavaScript|11|[Prática 004](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/004.html)|Usando condicionais compostas aninhadas|
