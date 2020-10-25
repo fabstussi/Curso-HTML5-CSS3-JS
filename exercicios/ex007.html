@@ -2,60 +2,73 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 07 - CeV</title>
-    <link href="style.css" rel="stylesheet" />
-    <style>
-        #sistema {
-            background-color: aquamarine;
-            width: 40%;
-            height: 200px;
-            text-align: center;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 007 - Modulo D - CeV</title>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    #sistema {
+      background-color: aquamarine;
+      width: 60%;
+      height: 200px;
+      text-align: center;
+    }
 
-        #resp {
-            margin-left: 20px;
-            background-color: chartreuse;
-            width: 90%;
-            height: 100px;
-            text-align: center;
-        }
+    #resp {
+      margin-left: 20px;
+      margin: auto;
+      background-color: chartreuse;
+      width: 90%;
+      height: 110px;
+      text-align: center;
+    }
 
-        #txtvel {
-            text-align: center;
-        }
-    </style>
+    #txtvel {
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body>
-    <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+
+  <header>
     <h1>Exercício de JavaScript - módulo D</h1>
+    <p>Usando condicionais compostas</p>
+  </header>
+
+  <section>
     <div id="sistema">
-        <p>Sistema de Multas do DETRAN</p>
-        <p>Velocidade do carro: <input type="number" name="txtvel" id="txtvel" />km/h
-            <input type="button" value="Verificar" onclick="calcular()" /></p>
-        <div id="resp"></div>
+      <p>Sistema de Multas do DETRAN</p>
+      <p>Velocidade do carro: <input type="number" name="txtvel" id="txtvel" />km/h
+        <input type="button" value="Verificar" onclick="calcular()" /></p>
+      <div id="resp"></div>
     </div>
+  </section>
 
-    <script>
-        function calcular() {
-            let txtv = document.querySelector('input#txtvel')
-            let res = document.querySelector('div#resp')
-            let vel = Number(txtv.value)
-            res.innerHTML = `<p>A velocidade registrada foi de <b>${vel}km/h </b></p> `
-            if (vel > 60) {
-                res.innerHTML += '<p><b>Será aplicada multa, velocidade máxima excedida</b></p>'
-            } else {
-                res.innerHTML += '<b>Não será aplicada multa, estava dentro do limite permitido</b>'
-            }
-            res.innerHTML += '<p>Dirija sempre usando o sinto de segurança!</p>'
-        }
-    </script>
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
 
-    <footer>
-        <a href="../index.html" title="Retorna para a pagina inicial">Inicio</a>
-    </footer>
+  <script>
+    function calcular() {
+      let txtv = document.querySelector('input#txtvel')
+      let res = document.querySelector('div#resp')
+      let vel = Number(txtv.value)
+      res.innerHTML = `<p>A velocidade registrada foi de <b>${vel}km/h </b></p> `
+      if (vel > 60) {
+        res.innerHTML += '<p><b>Será aplicada multa, velocidade máxima excedida</b></p>'
+      } else {
+        res.innerHTML += '<b>Não será aplicada multa, estava dentro do limite permitido</b>'
+      }
+      res.innerHTML += '<p>Dirija sempre usando o sinto de segurança!</p>'
+    }
+  </script>
 
 </body>
 

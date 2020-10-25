@@ -2,60 +2,72 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício 08 - CeV</title>
-    <link href="style.css" rel="stylesheet" />
-    <style>
-        #sistema {
-            background-color: aquamarine;
-            width: 40%;
-            height: 150px;
-            text-align: center;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 008 - Modulo D- CeV</title>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    #sistema {
+      background-color: aquamarine;
+      width: 40%;
+      height: 150px;
+      text-align: center;
+    }
 
-        #text {
-            margin-left: 20px;
-            margin-top: 5px;
-            background-color: chartreuse;
-            width: 90%;
-            height: 80px;
-            text-align: center;
-        }
+    #text {
+      margin-left: 20px;
+      margin-top: 5px;
+      background-color: chartreuse;
+      width: 90%;
+      height: 80px;
+      text-align: center;
+    }
 
-        #txt {
-            text-align: center;
-            margin-top: 5px;
-        }
-    </style>
+    #txt {
+      text-align: center;
+      margin-top: 5px;
+    }
+  </style>
 </head>
 
 <body>
-    <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+
+  <header>
     <h1>Desavio proposto de JavaScript - módulo D</h1>
+    <p>Usando condicionais e caixas de texto</p>
+  </header>
+
+  <section>
     <div id="sistema">
-        <p>Onde vive: <input type="text" name="txt" id="txt">
-            <input type="button" value="Mostrar" onclick="verificar()" /></p>
-        <div id="text"></div>
+      <p>Onde vive: <input type="text" name="txt" id="txt">
+        <input type="button" value="Mostrar" onclick="verificar()" /></p>
+      <div id="text"></div>
     </div>
+  </section>
 
-    <script>
-        function verificar() {
-            let txt = document.querySelector('input#txt')
-            let text = document.querySelector('div#text')
-            if (txt.value == 'Brasil') {
-                text.innerHTML += '<p><b>Você é brasileiro!</b></p>'
-                text.innerHTML += '<p><b>Seja bem-vindo!</b></p>'
-            } else {
-                text.innerHTML += '<p><b>Are you a foreigner!</b></p>'
-                text.innerHTML += '<p><b>Be welcome</b></p>'
-            }
-        }
-    </script>
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
 
-    <footer>
-        <a href="../index.html" title="Retorna para a pagina inicial">Inicio</a>
-    </footer>
+  <script>
+    function verificar() {
+      let txt = document.querySelector('input#txt')
+      let text = document.querySelector('div#text')
+      if (txt.value == 'Brasil') {
+        text.innerHTML += '<p><b>Você é brasileiro!</b></p>'
+        text.innerHTML += '<p><b>Seja bem-vindo!</b></p>'
+      } else {
+        text.innerHTML += '<p><b>Are you a foreigner!</b></p>'
+        text.innerHTML += '<p><b>Be welcome</b></p>'
+      }
+    }
+  </script>
 
 </body>
 

@@ -2,28 +2,39 @@
 <html lang="pt-BR">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Exercício 04 - CeV</title>
-	<link href="style.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 04 - Modulo B - CeV</title>
+  <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-	<p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
-	<h1>Exercício de JavaScript - módulo B</h1>
-	<p>Usando Tamplate String, usando string formatadas</p>
-	<script>
-		var salario = 3247.2
-		var nome = window.prompt('Qual o seu nome?');
-		document.write(`Olá, ${nome} é bom ter você aqui!<br />`)
-		document.write(`Seu nome tem ${nome.length} letras<br />`)
-		document.write(`${nome.toUpperCase()} tudo em maiúsculo ou ${nome.toLowerCase()} tudo em minúsculo`)
-		document.write(`<p>Valor: ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>`)
-	</script>
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
 
-	<footer>
-		<a href="../index.html" title="Retorna para a pagina inicial">Inicio</a>
-	</footer>
+  <header>
+    <h1>Exercício de JavaScript - módulo B</h1>
+    <p>Concatenando Strings - Escrevendo no html</p>
+  </header>
+
+  <section>
+    <script>
+      var salario = 3247.2
+      var nome = window.prompt('Qual o seu nome?');
+      document.write(`Olá, ${nome} é bom ter você aqui!<br />`)
+      document.write(`Seu nome tem ${nome.length} letras<br />`)
+      document.write(`${nome.toUpperCase()} tudo em maiúsculo ou ${nome.toLowerCase()} tudo em minúsculo`)
+      document.write(`<p>Valor: ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>`)
+    </script>
+  </section>
+
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
 
 </body>
 
