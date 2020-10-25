@@ -2,33 +2,42 @@
 <html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pratica do curso de JavaScript</title>
-    <link href="style.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prática 01 - Modulo B - CeV</title>
+  <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
-    <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+
+  <header>
     <h1>Prática de JavaScript - fim do módulo B</h1>
     <p>Usando operador ternário e formatando valor monetário</p>
-    <script>
-        let nome = window.prompt('Qual o seu nome?');
-        let idade = Number(window.prompt(`${nome} qual é a sua idade?`));
-        let sexo = window.prompt(`${nome} qual sua identidade de género (M / F / NB)?`).toUpperCase();
-        let salario = Number(window.prompt(`${nome} qual o seu salário? R$`));
-        document.write(`${nome}, `);
-        // Uso do operador ternário
-        document.write(`você tem ${idade} anos, portanto é ${idade < 18 ? 'menor' : 'maior'} de idade, `);
-        document.write(`você é ${sexo == 'NB' ? 'não binário' : sexo == 'F' ? 'mulher' : 'homem'}, `);
-        document.write(`seu salário é ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
-    </script>
+  </header>
 
-    <footer>
-        <a href="../index.html" title="Retorna para a pagina inicial">
-            <p>Inicio</p>
-        </a>
-    </footer>
+  <section>
+    <script>
+      let nome = window.prompt('Qual o seu nome?');
+      let idade = Number(window.prompt(`${nome} qual é a sua idade?`));
+      let sexo = window.prompt(`${nome} qual sua identidade de género (M / F / NB)?`).toUpperCase();
+      let salario = Number(window.prompt(`${nome} qual o seu salário? R$`));
+      document.write(`${nome}, `);
+      // Uso do operador ternário
+      document.write(`você tem ${idade} anos, portanto é ${idade < 18 ? 'menor' : 'maior'} de idade, `);
+      document.write(`você é ${sexo == 'NB' ? 'não binário' : sexo == 'F' ? 'mulher' : 'homem'}, `);
+      document.write(`seu salário é ${salario.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`);
+    </script>
+  </section>
+
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
 
 </body>
 
