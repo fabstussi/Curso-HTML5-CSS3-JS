@@ -23,8 +23,8 @@ function verificar() {
     var genero = sexo[0].checked ? 'Homem' : 'Mulher'
     var image = document.createElement('img')
     image.setAttribute('id', 'foto')
-    image.setAttribute('width', '200px')
-    //image.setAttribute('height', '225px')
+    image.setAttribute('height', '300px')
+    image.setAttribute('style', 'border-radius: 50%')
     if (genero == 'Homem') {
       if (idade < 3) {
         image.setAttribute('src', '../img/0a2-m.jpg')
