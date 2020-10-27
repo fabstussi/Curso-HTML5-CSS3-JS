@@ -17,6 +17,8 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 |C|JavaScript|10|[Exercício 006](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex006.html)|Manipulando valores nas caixa de texto|
 |D|JavaScript|11|[Exercício 007](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex007.html)|Calcular a velocidade|
 |D|JavaScript|11|[Exercício 008](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex008.html)|Verifica a nacionalidade|
+|D|JavaScript|12|[Exercício 009](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex009.html)|Exercício que muda as características de cores do site conforme o horário|
+|D|JavaScript|12|[Exercício 010](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex010.html)|Interação com o usuário definindo uma aparência conforme as informações fornecidas|
 
 ### Lista de práticas
 | Modulo | Curso | Aula | Link | Comentário |
