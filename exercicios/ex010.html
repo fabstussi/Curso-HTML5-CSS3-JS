@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 010 - Modulo D - CeV</title>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    #txtAno {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body onload="carregar()">
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+
+  <header>
+    <h1>Verificador de Idade</h1>
+    <p id="saudacao">, informe seus dados para serem analisados</p>
+  </header>
+
+  <section>
+    <div id="sistema">
+      <p>
+        Ano de nascimento:
+        <input type="number" name="txtAno" id="txtAno" min="0" />
+      </p>
+      <p>
+        Sexo:
+        <input type="radio" name="opcSex" id="mas" checked />
+        <label for="mas">Masculino</label>
+        <input type="radio" name="opcSex" id="fem" />
+        <label for="fem">Feminino</label>
+      </p>
+      <p>
+        <input type="button" value="Verificar" onclick="verificar()" />
+      </p>
+    </div>
+    <div id="res"></div>
+  </section>
+
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
+
+  <script src="ex010.js"></script>
+
+</body>
+
+</html>
