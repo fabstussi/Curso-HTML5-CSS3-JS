@@ -11,11 +11,6 @@
       text-align: center;
       width: 50px;
     }
-    #res{
-      font-size: smaller;
-      text-align: justify;
-      width: 80px;
-    }
   </style>
 </head>
 
@@ -30,12 +25,14 @@
   <section>
     <div id="controle">
       <p>
-        Número: 
+        Número:
         <input type="number" name="txtN" id="txtN">
         <input type="button" value="Gerar Tabuada" onclick="gerar()">
       </p>
     </div>
-    <div id="res"></div>
+    <div id="res">
+      <select name="tabuada" id="tab" size="10"></select>
+    </div>
   </section>
 
   <footer>

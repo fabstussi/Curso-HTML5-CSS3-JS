@@ -1,13 +1,15 @@
 function gerar() {
-  var num = document.getElementById('txtN')
-  var res = document.getElementById('res')
+  let num = document.getElementById('txtN')
+  let res = document.getElementById('tab')
   res.innerHTML = ''
-  var n = Number(num.value)
   if (num.value.length == 0) {
     alert('A caixa de texto não pode ficar vazia!')
   } else {
-    for (var mult = 1; mult <= 10; mult++) {
-      res.innerHTML += `${mult} x ${n} = ${mult * n}<br />`
+    let n = Number(num.value)
+    for (let mult = 1; mult <= 10; mult++) {
+      let item = document.createElement('option')
+      item.text = `${n} x ${mult} = ${n*mult}`
+      res.appendChild(item)
     }
   }
 }
