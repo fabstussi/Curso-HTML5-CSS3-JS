@@ -19,6 +19,8 @@ Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](htt
 |D|JavaScript|11|[Exercício 008](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex008.html)|Verifica a nacionalidade|
 |D|JavaScript|12|[Exercício 009](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex009.html)|Exercício que muda as características de cores do site conforme o horário|
 |D|JavaScript|12|[Exercício 010](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex010.html)|Interação com o usuário definindo uma aparência conforme as informações fornecidas|
+|D|JavaScript|12|[Exercício 011](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex011.html)|Exercício que usa laço de repetição|
+|D|JavaScript|12|[Exercício 012](https://github.com/fabstussi/Curso-HTML5-CSS3-JS/blob/main/exercícios/ex012.html)|Exercicio que monta uma tabuada|
 
 ### Lista de práticas
 | Modulo | Curso | Aula | Link | Comentário |
