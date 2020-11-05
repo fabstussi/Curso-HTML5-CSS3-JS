@@ -1,6 +1,6 @@
 let vetor = []
 
-function preencheTela(selecionado, primo, parImp, maior, menor, soma, média) {
+function preencheTela(selecionado, primo, parImp, fat, maior, menor, soma, média) {
   let dados = document.getElementById('dir')
 
   dados.innerHTML = ''
@@ -8,6 +8,7 @@ function preencheTela(selecionado, primo, parImp, maior, menor, soma, média) {
     dados.innerHTML = `<p>O número selecionado foi ${selecionado}</p>`
     dados.innerHTML += `<p>O número ${selecionado} ele ${primo} um número primo</p>`
     dados.innerHTML += `<p>O número ${selecionado} é ${parImp} </p>`
+    dados.innerHTML += `<p>${selecionado}! é ${fat} </p>`
   }
   dados.innerHTML += `<p>O maior número digitado foi o ${maior}</p>`
   dados.innerHTML += `<p>O menor número digitado foi o ${menor}</p>`
@@ -70,6 +71,14 @@ function parImpar(valor) {
   return valor % 2 == 0 ? 'par' : 'impar'
 }
 
+function fator(valor) {
+  if (valor == 1 || valor == 0) {
+    return 1
+  } else {
+    return valor * fator(valor - 1)
+  }
+}
+
 function manipulaVetor(valor) {
   let dados = document.getElementById('lst')
   let item = document.createElement('option')
@@ -91,7 +100,7 @@ function manipulaVetor(valor) {
   let maior = acharMaior()
   let soma = somaTudo()
   let media = achaMedia()
-  preencheTela(undefined, 0, 0, maior, menor, soma, media)
+  preencheTela(undefined, 0, 0, 0, maior, menor, soma, media)
 }
 
 function adicionar() {
@@ -111,9 +120,10 @@ function verificar() {
   let dados = document.getElementById('lst')
   let primo = ePrimo(dados.value)
   let parImp = parImpar(dados.value)
+  let fat = fator(dados.value)
   let menor = acharMenor()
   let maior = acharMaior()
   let soma = somaTudo()
   let media = achaMedia()
-  preencheTela(dados.value, primo, parImp, maior, menor, soma, media)
+  preencheTela(dados.value, primo, parImp, fat, maior, menor, soma, media)
 }
