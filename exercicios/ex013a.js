@@ -112,17 +112,22 @@ function adicionar() {
   } else {
     manipulaVetor(valor)
   }
-  n.innerHTML = ''
+  n.value = ''
+  n.focus()
 }
 
 function verificar() {
-  let dados = document.getElementById('lst')
-  let primo = ePrimo(dados.value)
-  let parImp = parImpar(dados.value)
-  let fat = fator(dados.value)
-  let menor = acharMenor()
-  let maior = acharMaior()
-  let soma = somaTudo()
-  let media = achaMedia()
-  preencheTela(dados.value, primo, parImp, fat, maior, menor, soma, media)
+  if (vetor.length == 0) {
+    alert('é preciso adicionar um valor antes de verificar')
+  } else {
+    let dados = document.getElementById('lst')
+    let primo = ePrimo(dados.value)
+    let parImp = dados.value % 2 == 0 ? 'par' : 'impar'
+    let fat = fator(dados.value)
+    let maior = Math.max.apply(null, vetor)
+    let menor = Math.min.apply(null, vetor)
+    let soma = vetor.reduce(function (somador, n) { return somador + n })
+    let media = vetor.reduce(function (somador, n) { return somador + n }) / vetor.length
+    preencheTela(dados.value, primo, parImp, fat, maior, menor, soma, media)
+  }
 }
