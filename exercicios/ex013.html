@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 013 - Modulo F - CeV</title>
+  <link href="style.css" rel="stylesheet" />
+  <style>
+    section {
+      height: 350px;
+    }
+
+    #num {
+      text-align: center;
+    }
+
+    #esq {
+      float: left;
+      width: 30%;
+      font-size: 12px;
+      box-shadow: 0px 0px 2px black;
+    }
+    
+    #esq p {
+      margin: 10px;
+    }
+    
+    #dir {
+      float: right;
+      width: 70%;
+      font-size: 12px;
+      box-shadow: 0px 0px 2px black;
+    }
+
+    #dir p {
+      margin: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <p id="topo"> Curso de HTML5 - CSS3 - JavaScript</p>
+
+  <header>
+    <h1>Analisador de número</h1>
+    <p>Utilizando uma array e funções, será exibidos dados manipulados</p>
+  </header>
+
+  <section>
+    <div id="controle">
+      <p>
+        Escolha um número entre 0 e 100:
+        <input type="number" name="num" id="num" min="0" max="100">
+        <input type="button" value="Inserir" onclick="adicionar()">
+      </p>
+    </div>
+    <div id="esq">
+      <p>
+        Selecione um número para analisar algumas informações dele
+      </p>
+      <p>
+        <select name="lst" id="lst" size="10">
+          <option value="nulo">Números adicionados</option>
+        </select>
+      </p>
+      <p>
+        <input type="button" value="Verificar" onclick="verificar()">
+      </p>
+    </div>
+    <div id="dir"></div>
+  </section>
+
+  <footer>
+    <div id="home">
+      <b><a href="../index.html" title="Retorna para a pagina inicial">Inicio</a></b>
+    </div>
+    <div id="copyr">
+      &copy; Curso em Vídeo
+    </div>
+  </footer>
+
+  <script src="ex013.js"></script>
+
+</body>
+
+</html>
