@@ -58,7 +58,6 @@ function ePrimo(valor) {
         cont++
       }
     }
-    console.log(cont)
     if (cont != 2) {
       return 'não é'
     } else {
