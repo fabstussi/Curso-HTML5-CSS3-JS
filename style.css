@@ -8,6 +8,44 @@ body{
     height: 100px;
     font: bold 14pt;
     background-color: rgb(90, 184, 238);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}
+
+#topo p{
+    height: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    line-height: 25px;
+    color: rgb(155, 225, 152);
+    text-shadow: yellow 0px 0px 5px;
+    background-color: rgb(14, 78, 73);
+}
+
+#topo h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 5, 5);
+    text-shadow: rgb(0, 0, 0) 0px 0px 5px
+}
+
+.esq {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    background-color: rgb(90, 184, 238);
+    width: 45%;
+    margin: 10px 10px auto;
+    font: 12pt 'Courier New';
+    text-align: left;
+    float: left;
+}
+
+.dir {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+    background-color: rgb(90, 184, 238);
+    width: 45%;
+    margin: 10px 10px auto;
+    font: 12pt 'Courier New';
+    text-align: left;
+    float: right;
 }
 
 #tabela{
