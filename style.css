@@ -4,6 +4,8 @@ body{
 }
 
 #topo{
+    border: 2px outset #1B6CA1;
+    border-radius: 10px;
     text-align: center;
     height: 100px;
     font: bold 14pt;
@@ -28,24 +30,21 @@ body{
     text-shadow: rgb(0, 0, 0) 0px 0px 5px
 }
 
-.esq {
+.modulo {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
     background-color: rgb(90, 184, 238);
-    width: 45%;
-    margin: 10px 10px auto;
+    
+    border: 2px outset #1B6CA1;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px 10px;
     font: 12pt 'Courier New';
-    text-align: left;
-    float: left;
+    text-align: justify;
 }
 
-.dir {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
-    background-color: rgb(90, 184, 238);
-    width: 45%;
-    margin: 10px 10px auto;
-    font: 12pt 'Courier New';
-    text-align: left;
-    float: right;
+.modulo details {
+    border: 2px outset #1B6CA1;
+    border-radius: 10px;
 }
 
 #tabela{
