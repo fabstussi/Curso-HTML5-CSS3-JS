@@ -6,7 +6,7 @@ function preencheTela(selecionado, primo, parimp, fat, maior, menor, soma, médi
   dados.innerHTML = ''
   if (selecionado != undefined) {
     dados.innerHTML = `<p>O número selecionado foi ${selecionado}</p>`
-    dados.innerHTML += `<p>O número ${selecionado} ele ${primo} um número primo</p>`
+    dados.innerHTML += `<p>O número ${selecionado} ${primo} um número primo</p>`
     dados.innerHTML += `<p>O número ${selecionado} é ${parimp} </p>`
     dados.innerHTML += `<p>${selecionado}! é ${fat} </p>`
   }
