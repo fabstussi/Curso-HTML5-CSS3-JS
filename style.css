@@ -1,4 +1,6 @@
 body{
+    background-image: url(img/fundo.webp);
+    background-attachment: fixed;
     width: 90%;
     margin: 10px auto;
 }
