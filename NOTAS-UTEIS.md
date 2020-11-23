@@ -1,5 +1,22 @@
 # Anotações úteis do curso.
 
+O HTML é uma linguagem de marcação, utilizando TAGs, as TAGs são identificadas pelos sinais <></>.
+
+* Principais TAGs:
+	* <!DOCTYPE html> - indica para o navegador que será utilizada a tecnologia HTML5.
+	* <html></html> - indica o inicio e final dos códigos da pagina.
+		* <head></head> - Onde são carregadas as informações importantes antes da exibição do conteúdo da pagina, exemplo o CSS.
+		* <body></body> - Onde fica o conteúdo do site e é feita a interação com o usuário usando o JS.
+
+**Existem TAGs que precisam de abertura e fechamento, pois são TAGs que contem blocos de textos ou outras TAGs dentro delas, já as TAGs que não necessitam de fechamento, são os que se resolvem apenas com parâmetros**.
+
+Hierarquia de títulos
+# Título de primeiro nível -> h1
+## - Título de segundo nível -> h2
+### -- Título de terceiro nível -> h3
+#### --- Título de quarto nível -> h4
+##### ---- Título de quinto nível -> h5
+###### ----- Título de sexto nível -> h6
 ~~~HTML
 <!--- Estrutura básica para iniciar uma pagina HTML --->
 <!DOCTYPE html> <!--- abertura do código --->
