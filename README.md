@@ -6,6 +6,8 @@ Professor: [Gustavo Guanabara](https://www.instagram.com/cursoemvideo)
 Vou deixar neste repositório o que eu aprender nos cursos de [HTML5 e CSS3](https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n) que está sendo reformulado no ano de 2020, junto com o curso de 
 [JavaScript](https://www.youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1) do ano de 2019.
 
+Para ver tudo funcionando (https://fabstussi.github.io/Curso-HTML5-CSS3-JS/)
+
 ### Lista de Exercícios
 | Modulo | Curso | Aula | Link | COMENTÁRIO |
 |--------|-------|------|------|------------|
