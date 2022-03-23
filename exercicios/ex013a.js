@@ -28,11 +28,14 @@ function acharMenor() {
 
 function acharMaior() {
   let maior = vetor[0]
+  let indice = 0
   for (let n in vetor) {
     if (vetor[n] > maior) {
       maior = vetor[n]
+      indice = n
     }
   }
+  console.log(indice)
   return maior
 }
 
