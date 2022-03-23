@@ -35,8 +35,7 @@ function acharMaior() {
       indice = n
     }
   }
-  console.log(indice)
-  return maior
+  return indice
 }
 
 function somaTudo() {
